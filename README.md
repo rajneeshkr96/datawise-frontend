@@ -103,9 +103,9 @@ A modern web application built with React, TypeScript, and Tailwind CSS, featuri
 ## 🖼️ Screenshots
 
 - **Dashboard Page**:
-  ![Dashboard Page](attachment://dashboard_page.png)
+  ![Dashboard Page](./dashboard_page.png)
 - **Users Page**:
-  ![Users Page](attachment://users_page.png)
+  ![Users Page](./users_page.png)
 - **Settings Page**:
-  ![Settings Page](attachment://settings_page.png)
+  ![Settings Page](./settings_page.png)
 

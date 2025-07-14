@@ -4,12 +4,15 @@ import UserTable from "@/features/components/UserTable"
 
 const DashboardPage = () => {
   return (
-    <div>
-      <div className="flex gap-x-6 mx-6">
+    <div className="w-full ">
+      <div className="flex justify-between gap-x-16  px-4 w-4/5 my-6 mx-auto max-md:flex-col">
         <DasBarChart/>
-        <ActivityForm/>
+        <UserTable/>
       </div>
-      <UserTable/>
+      <div className="flex justify-evenly gap-x-12 mx-auto px-4 w-4/5  max-md:flex-col-reverse">
+        <ActivityForm/>
+        <DasBarChart/>
+      </div>
       
     </div>
   )

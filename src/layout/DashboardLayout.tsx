@@ -6,10 +6,12 @@ const DashboardLayout = () => {
   return (
     <div>
       <SidebarProvider>
+        <div>
         <DasSidebar/>
-          <main>
-            <SidebarTrigger />
-            <Outlet />
+        </div>
+        <SidebarTrigger />
+          <main className="px-2 py-4 w-full mx-auto overflow-hidden">
+            <Outlet  />
           </main>
       </SidebarProvider>
     </div> 
